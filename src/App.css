@@ -1,23 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #root {
-  width: 100vw;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
-  background-color: rgb(224, 215, 215);
-  height: 100vh;
+  /* background-color: rgb(224, 215, 215); */
+  height: 600px;
   color: #000;
+  background-image: url(https://images.unsplash.com/photo-1734559566238-f086e7be15c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3MXx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bg-color {
-  background-color: #fff;
-  width: 500px;
-  height: 80vh;
+  background-color: #ffffff;
+  width: 30%;
+  height: 80%;
   margin: 50px auto;
   border-radius: 20px;
+  transition: ease-in-out 0.5s;
+  box-shadow: 1px 1px 10px #fff;
 }
 
 .logo {
   height: 6rem;
-  padding: 1.5em;
+  margin: 1.2rem;
 }
 
 h1 {
@@ -27,6 +43,11 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  padding-block: 1.2rem;
+}
+
+p {
+  padding-block: 1.1rem;
 }
 
 .btn {
@@ -44,8 +65,8 @@ h2 {
 }
 
 .btn:hover {
-  background-color: beige;
-  color: black;
+  background-color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
   border: 1px solid rgb(92, 85, 85, 0.4);
 }
 
@@ -64,20 +85,18 @@ h2 {
 /* Media Query */
 @media screen and (min-width: 315px) and (max-width: 576px) {
   .bg-color {
-    width: 90vw;
-    height: 90vh;
-    margin-block: 20px;
+    width: 90%;
   }
 }
+
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .bg-color {
-    height: 90vh;
-    margin-block: 20px;
+    width: 70%;
   }
 }
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .bg-color {
-    height: 90vh;
-    margin-block: 20px;
+    width: 70%;
   }
 }

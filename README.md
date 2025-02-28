@@ -1,8 +1,7 @@
-# React + Vite
+Tasbih Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Tally Count(Tasbih Counter) web application that helps users keep track of their dhikr (remembrance) counts efficiently.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Easy to Use Click to increment the counter.
+Increment and decrement count with a single click
+Reset button to start fresh
